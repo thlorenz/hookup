@@ -1,0 +1,30 @@
+{
+  "name": "hookup",
+  "version": "0.0.0",
+  "description": "Get hooked up with async-hooks to gain insight into your Node.js applications.",
+  "scripts": {
+    "test": "nave use 8 node",
+    "inspect": "nave use 8 node --inspect-brk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/hookup.git"
+  },
+  "homepage": "https://github.com/thlorenz/hookup",
+  "dependencies": {
+    "nave": "~2.2.3"
+  },
+  "keywords": [ "node-workshop", "workshop", "workshopper", "async-hooks" ],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/thlorenz/hookup/blob/master/LICENSE"
+  },
+  "engine": {
+    "node": ">=8"
+  }
+}
