@@ -2,6 +2,19 @@
 
 Get hooked up with async-hooks to gain insight into your Node.js applications.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Getting Started](#getting-started)
+- [Running a Project](#running-a-project)
+  - [Changing the Output Format](#changing-the-output-format)
+    - [HTML](#html)
+    - [JSON](#json)
+- [Inspecting a Project](#inspecting-a-project)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Getting Started
 
 ```sh
@@ -11,7 +24,7 @@ cd hookup && npm install
 
 ## Running a Project
 
-npm scripts to run projects have been provided in order to ensure you are running them with Node.js v8 or higher. This
+npm scripts to run projects have been provided in order to ensure you are running them with **Node.js version 8 or higher**. This
 is necessary to ensure the _async-hooks_ feature is available.
 
 To run a project use the `test` script, i.e. for the first project do:
@@ -26,6 +39,43 @@ projects directly with your `node` executable.
 ```sh
 node projects/01-init.timer.js
 ```
+
+### Changing the Output Format
+
+By default all data is output to the console, but for all exercises but the first one you can change that to either html
+or JSON (I personally find the html result most readable).
+
+#### HTML
+
+To produce an html file do one of the following:
+
+```sh
+npm run html projects/02-init.timer-enable-late.js
+```
+
+or
+
+```sh
+node projects/02-init.timer-enable-late.js --html
+```
+
+Then open `./result.html` in your browser of choice.
+
+#### JSON
+
+To produce a json file do one of the following:
+
+```sh
+npm run json projects/02-init.timer-enable-late.js
+```
+
+or
+
+```sh
+node projects/02-init.timer-enable-late.js --json
+```
+
+Then open `./result.json` in your editor of choice.
 
 ## Inspecting a Project
 
