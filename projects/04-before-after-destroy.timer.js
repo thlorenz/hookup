@@ -1,0 +1,23 @@
+const asyncHooks = require('async_hooks')
+const print = require('../lib/print')
+
+function init(id, type, triggerAsyncId, resource) {
+  print({ id, type, triggerAsyncId })
+}
+
+function before(id) {
+  print({ stage: 'before', id })
+}
+
+function after(id) {
+  print({ stage: 'after', id })
+}
+
+// TODO: Please print when a resource was destroyed as well.
+const hook = asyncHooks.createHook({ init, before, after })
+hook.enable()
+setTimeout(ontimeout, 10)
+
+function ontimeout() {
+  print('User callback fired')
+}

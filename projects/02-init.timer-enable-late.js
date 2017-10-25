@@ -9,5 +9,5 @@ const hook = asyncHooks.createHook({ init })
 setTimeout(() => {}, 10)
 
 // TODO:
-// Here we also don't see anything printed. Do you know why?
+// Here we don't see anything printed. Do you know why?
 hook.enable()
