@@ -4,7 +4,9 @@
   "description": "Get hooked up with async-hooks to gain insight into your Node.js applications.",
   "scripts": {
     "test": "nave use 8 node",
-    "inspect": "nave use 8 node --inspect-brk"
+    "inspect": "nave use 8 node --inspect-brk",
+    "html": "HOOKUP_HTML=1 nave use 8 node",
+    "json": "HOOKUP_JSON=1 nave use 8 node"
   },
   "repository": {
     "type": "git",
@@ -12,9 +14,15 @@
   },
   "homepage": "https://github.com/thlorenz/hookup",
   "dependencies": {
+    "json-stringify-safe": "~5.0.1",
     "nave": "~2.2.3"
   },
-  "keywords": [ "node-workshop", "workshop", "workshopper", "async-hooks" ],
+  "keywords": [
+    "node-workshop",
+    "workshop",
+    "workshopper",
+    "async-hooks"
+  ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
