@@ -15,6 +15,8 @@ Get hooked up with async-hooks to gain insight into your Node.js applications.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+![stat](assets/stat.png)
+
 ## Getting Started
 
 ```sh
