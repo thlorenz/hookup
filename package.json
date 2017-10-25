@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Get hooked up with async-hooks to gain insight into your Node.js applications.",
   "scripts": {
+    "postinstall": "nave use 8 node ./scripts/rebuild-function-origin.js",
     "test": "nave use 8 node",
     "inspect": "nave use 8 node --inspect-brk",
     "html": "HOOKUP_HTML=1 nave use 8 node",
@@ -14,6 +15,7 @@
   },
   "homepage": "https://github.com/thlorenz/hookup",
   "dependencies": {
+    "ah-fs": "nodesource/ah-fs",
     "json-stringify-safe": "~5.0.1",
     "nave": "~2.2.3"
   },
