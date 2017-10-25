@@ -2,7 +2,7 @@ const asyncHooks = require('async_hooks')
 const print = require('../lib/print')
 
 function init(id, type, triggerAsyncId, resource) {
-  print({ id, type, triggerAsyncId })
+  print({ stage: 'init', id, type, triggerAsyncId })
 }
 
 function before(id) {

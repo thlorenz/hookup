@@ -10,7 +10,7 @@ function print(obj) {
 }
 
 function init(id, type, triggerAsyncId, resource) {
-  print({ id, type, triggerAsyncId, resource })
+  print({ stage: 'init', id, type, triggerAsyncId })
 }
 
 const hook = asyncHooks.createHook({ init })
