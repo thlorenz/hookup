@@ -180,7 +180,7 @@ var prettyPrint = (function(){
 		},
 		
 		shorten: function(str) {
-			var max = 150;
+			var max = 500;
 			str = str.replace(/^\s\s*|\s\s*$|\n/g,'');
 			return str.length > max ? (str.substring(0, max-1) + '...') : str;
 		},
