@@ -5,10 +5,11 @@ const path = require('path')
 // a direct dep of ah-fs
 var dir
 try {
-  dir = path.join(__dirname, '..', 'node_modules', 'function-origin')
+  dir = path.join(__dirname, '..', 'node_modules', '@thlorenz', 'function-origin')
   fs.accessSync(dir)
 } catch (e) {
-  dir = path.join(path.dirname(require.resolve('ah-fs')), 'node_modules', 'function-origin')
+  dir = path.join(path.dirname(require.resolve('ah-fs')), 'node_modules', 'function-scout', 'node_modules', '@thlorenz', 'function-origin')
+  console.log(dir)
   try {
     fs.accessSync(dir)
   } catch (e) {
