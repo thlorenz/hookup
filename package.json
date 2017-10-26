@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/thlorenz/hookup",
   "dependencies": {
-    "ah-fs": "nodesource/ah-fs",
+    "ah-fs": "~0.1.1",
     "json-stringify-safe": "~5.0.1",
     "nave": "~2.2.3"
   },
