@@ -17,6 +17,8 @@
   "dependencies": {
     "ah-fs": "~0.1.1",
     "ah-fs.processor": "~0.2.0",
+    "ah-net": "~0.2.0",
+    "ah-net.processor": "~0.1.1",
     "json-stringify-safe": "~5.0.1",
     "nave": "~2.2.3"
   },
