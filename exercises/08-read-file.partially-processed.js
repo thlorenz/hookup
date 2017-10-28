@@ -40,7 +40,6 @@ function onexit() {
     .disable()
     .cleanAllResources()
     .processStacks()
-    .stringifyBuffers()
 
   print(fileSystemActivityCollector.fileSystemActivities)
 }
