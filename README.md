@@ -6,6 +6,7 @@ Get hooked up with async-hooks to gain insight into your Node.js applications.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [Docs](#docs)
 - [Getting Started](#getting-started)
 - [Running an Exercise](#running-an-exercise)
   - [Changing the Output Format](#changing-the-output-format)
@@ -16,6 +17,13 @@ Get hooked up with async-hooks to gain insight into your Node.js applications.
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ![stat](assets/stat.png)
+
+## Docs
+
+Please consult the following documentation (besides the one linked in the exercises) to help you out:
+
+- [async hooks documentation](https://nodejs.org/api/async_hooks.html)
+- [async hooks slides related to this workshop](http://thlorenz.github.io/talks/async-hooks/book/)
 
 ## Getting Started
 
